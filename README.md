@@ -70,7 +70,7 @@ If the q value displayed at runtime is > 0.0 and scrolls constantly refresh, the
 
 Finally, we can verify the success of streaming through VLC playback, and enter "rtsp://<\server ip>: <\rtsp port number>/<\video Stream name>" in the address of streaming media.
 
-You can also use ffplay for testing. You can run ffplay with the script I wrote (. / play-stream. sh), open a new terminal, open the cloned project directory, and enter the following commands in the terminal:
+You can also use ffplay for testing. You can run ffplay with the [script](./play-stream.sh) I wrote, open a new terminal, open the cloned project directory, and enter the following commands in the terminal:
 
 ```sh
 sh play-stream.sh
