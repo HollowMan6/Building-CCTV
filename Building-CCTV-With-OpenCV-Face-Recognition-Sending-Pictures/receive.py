@@ -85,6 +85,7 @@ def deal_data(conn, addr):
             print(buf)
             print("请求操作失败！")  # The request operation failed!
             conn.close()
+            print('\n等待连接中...')  # Waiting for the connection...
         break
 
 
