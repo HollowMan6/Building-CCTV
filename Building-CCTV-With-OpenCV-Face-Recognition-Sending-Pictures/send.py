@@ -24,15 +24,15 @@ def get_pic():
         # 人脸检测，scaleFactor和minNeighbors分别为图片缩放比例和需要检测的有效点数
         # Face detection, scaleFactor and minNeighbors are the scaling ratio of images and the number of valid points to be detected, respectively.
         faceRects = classfier.detectMultiScale(
-            grey, scaleFactor=1.2, minNeighbors=3, minSize=(32, 32))
+            grey, scaleFactor=1.3, minNeighbors=5, minSize=(32, 32))
         cv2.imshow("Camera", frame)
         if len(faceRects) > 0:  # 大于0则检测到人脸 Face Detected When More than 0
             print("检测到人脸！")
-            cv2.imwrite("./camera.png", frame)  # 保存路径 Saved path
-            # 只截取人脸部分可能会产生错误 Errors may occur if only face parts are intercepted.
-            # for x, y, w, h in faceRects:
-            #     roiImg = frame[y:y+h, x:x+w]
-            #     cv2.imwrite("./camera.png", roiImg)  # 保存路径 Saved path
+            # cv2.imwrite("./camera.png", frame)  # 保存整个图片 Save the whole picture
+            # 截取部分人脸可能会产生错误 Face parts are intercepted.
+            for x, y, w, h in faceRects:
+                roiImg = frame[y:y+h, x:x+w]
+                cv2.imwrite("./camera.png", roiImg)  # 保存路径 Saved path
 
             print("成功将图片保存到camera.png")
             cap.release()
