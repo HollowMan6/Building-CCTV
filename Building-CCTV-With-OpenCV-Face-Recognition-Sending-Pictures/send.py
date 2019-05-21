@@ -29,7 +29,7 @@ def get_pic():
         if len(faceRects) > 0:  # 大于0则检测到人脸 Face Detected When More than 0
             print("检测到人脸！")
             # cv2.imwrite("./camera.png", frame)  # 保存整个图片 Save the whole picture
-            # 截取部分人脸可能会产生错误 Face parts are intercepted.
+            # 截取人脸部分可能会产生错误 Face parts are intercepted.
             for x, y, w, h in faceRects:
                 roiImg = frame[y:y+h, x:x+w]
                 cv2.imwrite("./camera.png", roiImg)  # 保存路径 Saved path
