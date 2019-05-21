@@ -11,7 +11,6 @@ import numpy as np
 
 def get_pic():
 
-
     # 调用摄像头 Call Camera
     cap = cv2.VideoCapture(0)
     # 人脸识别器分类器 Train.xml为模型 Face Recognizer Classifier Train.xml as the training model
@@ -22,7 +21,7 @@ def get_pic():
             break
         # 灰度转换 Grayscale transformation
         grey = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        # 人脸检测，scaleFactor和minNeighbors分别为图片缩放比例和需要检测的有效点数 
+        # 人脸检测，scaleFactor和minNeighbors分别为图片缩放比例和需要检测的有效点数
         # Face detection, scaleFactor and minNeighbors are the scaling ratio of images and the number of valid points to be detected, respectively.
         faceRects = classfier.detectMultiScale(
             grey, scaleFactor=1.2, minNeighbors=3, minSize=(32, 32))
@@ -30,6 +29,11 @@ def get_pic():
         if len(faceRects) > 0:  # 大于0则检测到人脸 Face Detected When More than 0
             print("检测到人脸！")
             cv2.imwrite("./camera.png", frame)  # 保存路径 Saved path
+            # 只截取人脸部分可能会产生错误 Errors may occur if only face parts are intercepted.
+            # for x, y, w, h in faceRects:
+            #     roiImg = frame[y:y+h, x:x+w]
+            #     cv2.imwrite("./camera.png", roiImg)  # 保存路径 Saved path
+
             print("成功将图片保存到camera.png")
             cap.release()
             break
@@ -44,7 +48,8 @@ def socket_client():
     try:
         # socket参数配置 Parameter configuration
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.connect(('localhost', 8008)) # 在这里填入正确的ip 和端口号 fill in correct ip and port number here  
+        # 在这里填入正确的ip 和端口号 fill in correct ip and port number here
+        s.connect(('localhost', 8008))
     except socket.error as msg:
         print(msg)
         sys.exit(1)
