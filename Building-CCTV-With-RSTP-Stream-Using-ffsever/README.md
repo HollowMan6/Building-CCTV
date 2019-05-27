@@ -1,5 +1,8 @@
 # Build CCTV With RSTP Stream Using ffsever
 
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
 English Version.(中文版本请下拉)
 
 ***Warning: ffserver has been removed on 2018-01-06. The latest version that has ffserver is ffmpeg 3.4.6 . There is no longer any support for ffserver. ffserver also has many disadvantages such as high resources consumption and serious time delay.***
