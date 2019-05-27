@@ -1,5 +1,8 @@
 # Building CCTV
 
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
 Here is my solution to broadcast your camera through the Internet:
 
 * 1. [with RSTP using ffserver and ffmpeg](./Building-CCTV-With-RSTP-Stream-Using-ffsever).
