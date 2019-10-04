@@ -3,21 +3,18 @@
 # 导入库 Import Library
 import socket
 import threading
-import time
 import sys
-import os
 import struct
 
 
 # 查询本机ip地址 get host ip
 def get_host_ip():
-    try:
-        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        s.connect(('8.8.8.8', 80))
-        ip = s.getsockname()[0]
-    finally:
-        s.close()
-
+    with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
+        try:
+            s.connect(('8.8.8.8', 80))
+            ip = s.getsockname()[0]
+        except Exception:
+            pass
     return ip
 
 

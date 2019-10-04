@@ -2,6 +2,8 @@
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/HollowMan6/Building-CCTV.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HollowMan6/Building-CCTV/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/HollowMan6/Building-CCTV.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HollowMan6/Building-CCTV/context:python)
 
 Here is my solution to broadcast your camera through the Internet:
 
