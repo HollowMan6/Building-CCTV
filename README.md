@@ -14,6 +14,8 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/HollowMan6/Building-CCTV.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HollowMan6/Building-CCTV/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/HollowMan6/Building-CCTV.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HollowMan6/Building-CCTV/context:python)
 
+（此项目是[兰客社人脸识别门禁系统比赛](https://github.com/HollowMan6/Lanck-Face-Recognition-Lock-Competition-Backend-Code)的一个子项目）
+
 以下是我搭建局域网内网络实时监控的两种解决方案：
 
 * 1. [ffmpeg+ffserver实现摄像头的RSTP流直播](./Building-CCTV-With-RSTP-Stream-Using-ffsever) .
@@ -21,6 +23,8 @@
 * 2. [opencv智能识别人脸并截图转发](./Building-CCTV-With-OpenCV-Face-Recognition-Sending-Pictures) .
 
 # Building CCTV
+
+(This Repository is a sub-Repository for [Lanck Face Recognition Lock Competition](https://github.com/HollowMan6/Lanck-Face-Recognition-Lock-Competition-Backend-Code))
 
 Here is my solution to broadcast your camera through the Internet:
 
