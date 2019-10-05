@@ -1,4 +1,4 @@
-# Opencv智能识别人脸并截图转发
+# OpenCV智能识别人脸并截图转发
 
 [![last-commit](https://img.shields.io/github/last-commit/HollowMan6/Building-CCTV)](../../../graphs/commit-activity)
 
