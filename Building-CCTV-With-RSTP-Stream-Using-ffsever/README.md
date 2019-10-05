@@ -1,15 +1,15 @@
 # ffmpeg和ffserver实现摄像头直播
 
-[![last-commit](https://img.shields.io/github/last-commit/HollowMan6/Building-CCTV)](../../graphs/commit-activity)
+[![last-commit](https://img.shields.io/github/last-commit/HollowMan6/Building-CCTV)](../../../graphs/commit-activity)
 
 [![Followers](https://img.shields.io/github/followers/HollowMan6?style=social)](https://github.com/HollowMan6?tab=followers)
-[![watchers](https://img.shields.io/github/watchers/HollowMan6/Building-CCTV?style=social)](../../watchers)
-[![stars](https://img.shields.io/github/stars/HollowMan6/Building-CCTV?style=social)](../../stargazers)
-[![forks](https://img.shields.io/github/forks/HollowMan6/Building-CCTV?style=social)](../../stargazers)
+[![watchers](https://img.shields.io/github/watchers/HollowMan6/Building-CCTV?style=social)](../../../watchers)
+[![stars](https://img.shields.io/github/stars/HollowMan6/Building-CCTV?style=social)](../../../stargazers)
+[![forks](https://img.shields.io/github/forks/HollowMan6/Building-CCTV?style=social)](../../../stargazers)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://hollowman6.github.io/fund.html)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![Repo-Size](https://img.shields.io/github/repo-size/HollowMan6/Building-CCTV.svg)](../../archive/master.zip)
+[![Repo-Size](https://img.shields.io/github/repo-size/HollowMan6/Building-CCTV.svg)](../../../archive/master.zip)
 
 (English version is down below)
 
