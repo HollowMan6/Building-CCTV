@@ -1,6 +1,7 @@
 # 远程局域网内网络实时监控解决方案
 
 [![last-commit](https://img.shields.io/github/last-commit/HollowMan6/Building-CCTV)](../../graphs/commit-activity)
+![Python package](https://github.com/HollowMan6/Building-CCTV/workflows/Python%20package/badge.svg)
 
 [![Followers](https://img.shields.io/github/followers/HollowMan6?style=social)](https://github.com/HollowMan6?tab=followers)
 [![watchers](https://img.shields.io/github/watchers/HollowMan6/Building-CCTV?style=social)](../../watchers)
